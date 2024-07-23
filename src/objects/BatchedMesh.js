@@ -375,6 +375,8 @@ class BatchedMesh extends Mesh {
 
 		}
 
+		this._visibilityChanged = true;
+
 		return drawId;
 
 	}
